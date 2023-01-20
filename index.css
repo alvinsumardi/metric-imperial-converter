@@ -10,25 +10,27 @@ body {
 }
 
 .container {
-    background-color: #F4F4F4;
     width: 80%;
     max-width: 550px;
     margin: 20px auto;
     padding: 0;
+    overflow: hidden;
     border-radius: 20px;
+
 }
 
 .top {
     background-color: #6943FF;
     color: white;
     padding: 28px;
-    
-
+    border-radius: 20px 20px 0 0;
+    box-shadow: 5px 5px 10px #aaa;
 }
 
 .top * {
     display: block;
     margin: 0 auto 20px;
+    
 }
 
 .top *:last-child {
@@ -71,7 +73,9 @@ button:hover {
 }
 
 .bottom {
-    padding: 36px 24px;
+    padding: 28px 24px 24px;
+    border-radius: 0 0 20px 20px;
+    background-color: #F4F4F4;
 }
 
 .bottom * {
@@ -85,11 +89,14 @@ button:hover {
 .conversion-container {
     background-color: white;
     padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #eee;
 }
 
 .conversion-container * {
     margin: 0 auto 10px;
 }
+
 
 .conversion-container h2 {
     font-size: 1.250rem;
