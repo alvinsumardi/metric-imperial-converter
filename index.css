@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    background-color: #1C1C1C;
+}
+
+.container {
+    background-color: #F4F4F4;
+    width: 80%;
+    max-width: 550px;
+    margin: 20px auto;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.top {
+    background-color: #6943FF;
+    color: white;
+    padding: 28px;
+    
+
+}
+
+.top * {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.top *:last-child {
+    margin-bottom: 0;
+}
+
+
+h1 {
+    font-size: 1.50rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 136%;
+    text-align: center;
+    letter-spacing: -0.03em;
+}
+
+.top input {
+    background-color: transparent;
+    color: white;
+    padding: 20px 20px;
+    font-size: 3rem;
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px white solid;
+}
+
+button {
+    background-color: white;
+    border: 3px white solid;
+    padding: 10px 28px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+button:hover {
+    background-color: whitesmoke;
+}
+
+.bottom {
+    padding: 36px 24px;
+}
+
+.bottom * {
+    margin: 0px auto 20px;
+}
+
+.bottom *:last-child {
+    margin-bottom: 0;
+}
+
+.conversion-container {
+    background-color: white;
+    padding: 30px;
+}
+
+.conversion-container * {
+    margin: 0 auto 10px;
+}
+
+.conversion-container h2 {
+    font-size: 1.250rem;
+    font-weight: 600;
+    color: #5A537B;
+    text-align: center;
+}
+
+.conversion-container p {
+    font-size: 0.875rem;
+    color: #353535;
+    text-align: center;
+}
